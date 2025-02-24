@@ -1,0 +1,19 @@
+{
+    "name": "lava",
+    "version": "1.0.0",
+    "description": "A project for user management with authentication",
+    "main": "server.js",
+    "scripts": {
+        "start": "node backend/server.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "cors": "^2.8.5",
+        "sequelize": "^6.6.5",
+        "bcryptjs": "^2.4.3",
+        "jsonwebtoken": "^8.5.1"
+    },
+    "devDependencies": {},
+    "author": "",
+    "license": "ISC"
+}

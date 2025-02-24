@@ -1,0 +1,27 @@
+# Development Log for LAVA Dating Web App
+
+## Step 1: Project Initialization
+- Created the main folder structure for the LAVA dating web app.
+- Set up backend and frontend directories.
+- Created a .gitignore file to exclude unnecessary files from version control.
+
+## Step 2: Database Setup
+- Gathered database connection details (username: root, password: mysql) for MySQL.
+- Created `backend/db.js` to handle MySQL database connection.
+- Installed `mysql2` and `sequelize` for database interactions.
+- Created a new MySQL database named `LAVA` and updated `backend/db.js` to use this database.
+
+## Step 3: Backend Development
+- Created `backend/server.js` to set up the Express server and define API routes.
+- Implemented user authentication and session management.
+- Created folder structure for routes, models, and controllers.
+
+## Step 4: Frontend Development
+- Build user interface components for user registration, login, and profile management.
+- Implement features for browsing profiles and sending messages.
+
+## Step 5: Additional Features
+- Consider adding features like user preferences, search filters, and notifications.
+
+## Future Steps
+- Document any additional features and changes made during development.
